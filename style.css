@@ -1,0 +1,290 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.main-wr {
+    width: 1200px;
+    margin: 30px auto;
+    
+    
+
+}
+
+/* HEADER */
+header {
+    position: relative;
+}
+header h2 {
+    position: absolute;
+    font-size: 32px;
+    top: 0px;
+    left: 20px;
+}
+header h2 span {
+    color: orange;
+    border: 1px solid whitesmoke;
+    border-right: none;
+    padding-left: 10px;
+}
+header img {
+    width: 100%;
+}
+header ul {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+header ul li {
+    display: inline;
+    color: whitesmoke;
+}
+header h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    top: 40%;
+    color: whitesmoke;
+}
+header button {
+    position: absolute;
+    bottom: 200px;
+    right: 555px;
+    padding: 5px 15px;
+    color: whitesmoke;
+    background-color: #4064ac;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/* SEPARATOR */
+.separator {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.separator h1 {
+    position: relative;
+   
+   margin: auto;
+   text-align: center;
+   border-bottom: 1px solid black;
+   padding-bottom: 5px;
+   width: 30%;
+}
+.separator .kockica {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    left: 600px;
+    bottom: 5px;
+    background-color: whitesmoke;
+    transform: rotate(45deg);
+}
+
+
+/* SECTION 1 */
+
+
+.a1 {
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+.section1 article:nth-child() {
+    margin-right: 0;
+}
+.a1 h4 {
+    letter-spacing: 2px;
+    color: #4064ac;;
+}
+.a1 p {
+   line-height: 25px; 
+}
+.a1 img {
+    width: 100%;
+}
+.a1 ul {
+    list-style-image: url(./images/arrow_bullet.png);
+    padding: 20px;
+}
+.a1 ul li:nth-child(1) {
+    margin-top: 0;
+    
+}
+.a1 ul li {
+    margin-top: 7px;
+}
+
+/* SECTION 2 */
+.section2 {
+   margin: auto;
+}
+.a2 {
+    float: left;
+    width: 31%;
+    margin-right: 30px;
+    background-color: #44b5f7;
+    padding: 10px;
+}
+.section2 .a2:nth-child(1){
+    margin-left: 15px;
+    
+}
+
+.section2 .a2:nth-child(3){
+    margin-right: 0;
+    
+}
+.upper {
+    position: relative;
+}
+.upper img {
+    width: 80px;
+    border-radius: 100px;
+}
+.upper h2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.upper p {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    
+}
+.a2 p {
+    color: whitesmoke;
+}
+
+/* SECTION 2 */
+.section3 {
+    margin-bottom: 0;
+}
+.a3 {
+    width: 25%;
+    float: left;
+}
+
+.green {
+    height: 255px;
+    background-color: #73d673;
+}
+.green h2 {
+    margin-top: 18%;
+    margin-left: 30%;    
+}
+.green ul {
+    margin-left: 20%;
+    
+}
+.pink {
+    height: 255px;
+    background-color: #edbbbf;
+}
+.pink h2 {
+    margin-top: 18%;
+    margin-left: 30%;
+}
+.imgs {
+    margin-left: 20%;
+}
+.pink img {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.navy {
+    height: 255px;
+    background-color: #2f4969
+}
+.navy h2 {
+    margin-top: 18%;
+    margin-left: 30%;
+}
+.baby {
+    height: 255px;
+    background-color: #c7e0f6
+}
+.baby img {
+    width: 100%;
+    height: 250px;
+    background-color: #c7e0f6
+}
+
+/* IFRAME */
+
+iframe {
+    margin-top: 0;
+    width: 100%;
+}
+
+/* section4 */
+.section4 {
+    width:70% ;
+    margin: auto
+}
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+.inputs input {
+    width: 32%;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+}
+.inputs input:nth-child(3) {
+    margin-right: 0;
+}
+.section4 textarea {
+    margin-top: 20px;
+    width: 100%;
+}
+.inputs .submit {
+    margin-top: 30px;
+    width: 100px;
+    background-color: orange;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    height: 100px;
+    margin-top: 40px;
+    background-color: rgb(24, 24, 24);
+}
+footer ul {
+    position: absolute;
+    left: 25%;
+
+}
+footer ul li {
+    display: inline;
+    color: whitesmoke;
+    margin: 20px;
+}
+footer p {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 14px;
+    bottom: 1px;
+    left: 38%;
+}
