@@ -11,7 +11,7 @@
     clear: both;
 }
 .main-wr {
-    width: 1200px;
+    /* width: 1200px; */
     margin: 30px auto;
     
     
@@ -47,24 +47,29 @@ header ul li {
     color: whitesmoke;
 }
 header h1 {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     text-align: center;
     font-size: 50px;
     font-weight: 300;
-    top: 40%;
+    /* top: 40%; */
     color: whitesmoke;
 }
 header button {
-    position: absolute;
-    bottom: 200px;
-    right: 555px;
+    display: inline;
     padding: 5px 15px;
     color: whitesmoke;
     background-color: #4064ac;
     border: none;
     border-radius: 10px;
 
+}
+.wr-1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    
 }
 
 /* SEPARATOR */
@@ -88,7 +93,7 @@ header button {
     width: 10px;
     height: 10px;
     border: 1px solid black;
-    left: 600px;
+    left: 50%;
     bottom: 5px;
     background-color: whitesmoke;
     transform: rotate(45deg);
@@ -273,7 +278,7 @@ footer {
 }
 footer ul {
     position: absolute;
-    left: 25%;
+    left: 30%;
 
 }
 footer ul li {
@@ -286,5 +291,59 @@ footer p {
     color: whitesmoke;
     font-size: 14px;
     bottom: 1px;
-    left: 38%;
+    left: 40%;
+}
+
+
+@media all and (max-width: 1220px){
+    .a1-1 , .a2-2 {
+        width:45% ;
+    }
+    .a1-3 {
+        width: 100%;
+    }
+
+/* -------------------------- */
+    .a2 {
+        width: 40%;
+    }
+    .a2-3 {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .section2 {
+        margin-left: 120px;
+    }
+/* ------------------------- */
+
+    .a3 {
+        width: 50%;
+    }
+    .green h2 {
+        margin-left: 200px;
+    }
+    .green ul {
+        margin-left: 150px;
+    }
+    
+    .pink h2 {
+        margin-left: 200px;
+    }
+    .pink .imgs {
+        margin-left: 170px;
+    }
+
+    .navy h2 {
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+    .navy ul {
+        margin-left: 150px;
+        
+    }
+   
+
+
+
 }
